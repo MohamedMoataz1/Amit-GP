@@ -1,0 +1,165 @@
+.footer {
+    min-height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* background-color: beige; */
+    /* background: linear-gradient(to right, #ab7769, #02233f); */
+
+    color: black;
+    padding: 50px 0;
+    gap: 30px;
+}
+
+.footer h1 {
+    text-align: center;
+
+}
+
+.details {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    /* background-color: cadetblue; */
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 100px 0;
+
+}
+
+.shop {
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    /* background-color: blueviolet; */
+}
+
+.shop ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.shop ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.company {
+    width: 430px;
+    /* background-color: yellow; */
+    display: flex;
+    height: 250px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.company div img {
+    cursor: pointer;
+}
+
+.messagephoto {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.joinus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 430px;
+    height: 250px;
+    gap: 50px;
+    /* background-color: brown; */
+}
+
+.input22 {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 70%;
+    height: 30px;
+    background-color: red;
+}
+
+.input22 input {
+    width: 87%;
+    position: absolute;
+    left: 0;
+    /* padding: 10px 50px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    transition: 1s;
+}
+
+.input22 input:focus {
+    outline: 2px solid green;
+    /* background-color: green; */
+    /* transform: translateY(-10px); */
+    /* padding: 20px; */
+}
+
+.input22 img:nth-child(1) {
+    cursor: pointer;
+    object-fit: contain;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    z-index: 1;
+}
+
+.input22 .arrow {
+    cursor: pointer;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    z-index: 2;
+    width: 35px;
+    height: 35px;
+}
+
+@media (max-width:690px) {
+    .menu-button {
+        display: flex;
+
+    }
+
+    .container ul {
+        display: none;
+    }
+
+}
+
+.samy {
+    text-decoration: none;
+    color: black;
+}
+
+.samy:hover {
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}

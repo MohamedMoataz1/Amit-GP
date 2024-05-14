@@ -1,0 +1,95 @@
+#fourth {
+    width: 100%;
+    height: 100vh !important;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 60px;
+}
+
+#fourth h1 {
+    color: black;
+    font-size: 60px;
+}
+
+#fourth .coulums {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+}
+
+#fourth .coulums .Contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 5px 10px;
+}
+
+#fourth .coulums .Contact h1 {
+    color: black;
+    font-size: 40px;
+}
+
+#fourth .coulums .Contact input {
+    background-color: transparent;
+    color: black;
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 25px 200px 12px 10px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+#fourth .coulums .Contact button {
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 25px 40px !important;
+    border: 1px solid #545454;
+    outline: none;
+    transition: 1s ease-in-out;
+    color: black;
+    background: white;
+}
+
+/* ----------------------------------------------- /
+  .talk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    margin: auto;
+  }
+  .talk h2 {
+    width: 300px;
+    color: white;
+    font-size: 30px;
+    border-left: 1px solid orange;
+    padding-left: 10px;
+  }
+  .talk p {
+    color: grey;
+  }
+  .coulums .talk h1 {
+    color: white;
+    font-size: 40px !important;
+  }
+  .coulums .talk .single {
+    width: 80%;
+  }
+  .coulums .talk .single span {
+    width: 50px;
+    height: 50px;
+  }
+  / --------------------------------------------- */
+.line span {
+    border: 1px solid orange;
+}

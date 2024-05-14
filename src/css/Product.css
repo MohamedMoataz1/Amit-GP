@@ -1,0 +1,38 @@
+.products{
+    width: 100%;
+    /* background-color: red; */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.single-product {
+    width: 400px;
+    height: 400px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* background-color: blueviolet; */
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+.single-product img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.single-product p {
+    text-align: center;
+}
+.single-product button {
+    padding: 15px 20px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px black;
+    cursor: pointer;
+}
